@@ -4,12 +4,12 @@
   "private": false,
   "main": "lib/index.umd.min.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
 
-    "lib": "vue-cli-service build --target lib --name index --dest lib src/packages/index.js"
+    "lib": "vue-cli-service build --target lib --name index --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",

@@ -1,8 +1,9 @@
 import Vue from "vue";
+
 import Element from "element-ui"; // 引入elementUi
 import "element-ui/lib/theme-chalk/index.css";
 
-import jrUi from "../../../src/packages";
+import jrUi from "../../../packages"; // 引入开发的组件库
 
 
 import hljs from "highlight.js";

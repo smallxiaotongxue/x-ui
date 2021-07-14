@@ -1,5 +1,5 @@
 <template>
-  <button>jr-button</button>
+  <el-button>jr-button</el-button>
 </template>
 
 <script>
