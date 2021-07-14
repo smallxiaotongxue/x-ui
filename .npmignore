@@ -1,0 +1,15 @@
+# 忽略目录
+src/
+public/
+dist/
+packages/
+document/
+.vscode/
+
+# 忽略指定文件
+vue.config.js
+babel.config.js
+jest.config.js
+.prettierrc.js
+
+*.map

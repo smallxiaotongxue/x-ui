@@ -1,7 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
 
-import jrUi from "../src/packages";
+import jrUi from "../packages";
 Vue.use(jrUi);
 
 Vue.config.productionTip = false;
